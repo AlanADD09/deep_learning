@@ -1,0 +1,15 @@
+# LeNet-5 - Clasificacion de Contaminacion
+
+Este proyecto implementa y entrena una variante de LeNet-5 para clasificar imagenes en dos categorias: `contaminado` y `no_contaminado`.
+
+Incluye scripts para:
+- Preparar y organizar el dataset.
+- Entrenar y calibrar el modelo.
+- Guardar y reutilizar los mejores pesos entrenados en la carpeta `models/`.
+
+Estructura general del flujo:
+1. Preparacion de datos (`dataset_preparation.py`).
+2. Entrenamiento del modelo (`lenet5.py`).
+Op. Calibracion/evaluacion (`calibrate.py`).
+
+Datasets y modelos preentrenados ya estan organizados en este repositorio para pruebas rapidas.
