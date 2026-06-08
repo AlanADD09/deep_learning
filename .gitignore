@@ -1,0 +1,17 @@
+# Entorno virtual
+.venv/
+
+# Datos (demasiado grandes para git)
+data/LSCIDMR/
+data/dataset/
+
+# Modelos entrenados
+models/
+
+# Salidas generadas
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
