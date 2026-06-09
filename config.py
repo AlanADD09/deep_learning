@@ -24,6 +24,7 @@ VGG16_MODELS     = MODELS_DIR / "vgg16"
 VGG19_MODELS     = MODELS_DIR / "vgg19"
 RESNET50_MODELS  = MODELS_DIR / "resnet50"
 RESNET101_MODELS = MODELS_DIR / "resnet101"
+INCEPTIONV3_MODELS = MODELS_DIR / "inceptionv3"
 
 # --- Salidas (gráficas, grad-cam, reportes) ---
 OUTPUTS_DIR  = PROJECT_ROOT / "outputs"
